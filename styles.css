@@ -1,0 +1,198 @@
+/**
+    Style of the page
+*/
+
+
+/**
+*
+******************HEADER******************
+*
+*/
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 562.5%;
+    color: #E7AB79;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #E7AB79;
+    font-weight: normal;
+    
+}
+p {
+    line-height: 2;
+}
+
+#skill {
+    padding-top:20px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif; 
+    color: #ecb384;
+}
+
+
+.top-container {
+    padding-top: 100px;
+    background-color: #FCF8E8;
+    position: relative;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 350px;
+    top: 60px;
+
+
+}
+.bottom-cloud {
+    position: absolute;
+    left: 350px;
+    bottom: 340px;
+
+}
+/**
+********************BODY*******************
+*
+*/
+
+body {
+    margin: 0%;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+.middle-container {
+
+    margin: 100px 0;
+    /**padding-top: 20px ;
+    padding-bottom: 20px ;*/
+}
+
+.profile {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.profile p {
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+}
+
+hr {
+
+    border-style:dotted ;
+    border-width: 10px; ;
+    border-top: 0;
+    border-right: 0 ;
+    border-left: 0;
+    width: 10%;
+    border-color: #d6c2b2;
+    margin: 100px auto;
+
+    
+}
+
+.contact-me {
+
+    margin-top: 50px;
+    height: 250px;
+    padding-bottom: 20px;
+}
+.contact-me p {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+/**
+*
+***********************REVIEW THIS PART.
+*   I created the style for the bottom container, now is it responsive ? logically right ? need to check this next time
+*/
+.bottom-container {
+
+    /**height: 150px;*/
+    padding: 50px 0 20px;
+    background-color: #f5d1b0;
+    
+}
+.bottom-container a {
+    margin: 20px;
+    color:#d66d17;
+    font-family:'Montserrat', sans-serif;
+    text-decoration: none;
+}
+.bottom-container a:hover {
+    color: #ffe9d7;
+}
+.copyright {
+    margin-top: 35px;
+    color: white;
+    font-size: 0.85em;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    
+}
+.coding-img {
+    width: 20%;
+    float: left;
+    margin-right: 30px ;
+    
+}
+
+.terminal-img {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}   
+
+
+a {
+    color: #ecb384;
+}
+
+
+/**
+*
+*****************BUTTON*************
+*
+*/
+.btn {
+    background: #ffd9ba;
+    background-image: -webkit-linear-gradient(top, #ffd9ba, #946c4b);
+    background-image: -moz-linear-gradient(top, #ffd9ba, #946c4b);
+    background-image: -ms-linear-gradient(top, #ffd9ba, #946c4b);
+    background-image: -o-linear-gradient(top, #ffd9ba, #946c4b);
+    background-image: linear-gradient(to bottom, #ffd9ba, #946c4b);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+  }
+  
+  .btn:hover {
+    background: #fa903a;
+    background-image: -webkit-linear-gradient(top, #fa903a, #ffcda6);
+    background-image: -moz-linear-gradient(top, #fa903a, #ffcda6);
+    background-image: -ms-linear-gradient(top, #fa903a, #ffcda6);
+    background-image: -o-linear-gradient(top, #fa903a, #ffcda6);
+    background-image: linear-gradient(to bottom, #fa903a, #ffcda6);
+    text-decoration: none;
+  }
+
